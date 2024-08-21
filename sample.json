@@ -1,0 +1,618 @@
+[
+   {
+      "id":1,
+      "name":"AWS",
+      "label":"Amazon Web Services (AWS)",
+      "tier":"Community",
+      "tags":[
+         "Cloud Provider"
+      ],
+      "auto_onboard_support":true,
+      "short_description":"Get visibility into 500+ cloud assets across regions and accounts.",
+      "description":"Get visibility into 500+ cloud assets across regions and accounts.",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/aws.svg"
+   },
+   {
+      "id":2,
+      "name":"Azure",
+      "label":"Microsoft Azure",
+      "tier":"Community",
+      "tags":[
+         "Cloud Provider"
+      ],
+      "auto_onboard_support":true,
+      "short_description":"Inventory 300+ Cloud Assets across assets and Subscriptions",
+      "description":"Inventory 300+ Cloud Assets across assets and Subscriptions",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/azure.svg"
+   },
+   {
+      "id":3,
+      "name":"EntraID",
+      "label":"Microsoft EntraID (previously AzureAD)",
+      "tier":"Community",
+      "tags":[
+         "Identity Provider"
+      ],
+      "auto_onboard_support":true,
+      "short_description":"Discover Users, Identities, Apps, Service Accounts and 20+ others.",
+      "description":"Discover Users, Identities, Apps, Service Accounts and 20+ others.",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/entraid.png"
+   },
+   {
+      "id":4,
+      "name":"GCP",
+      "label":"Google Cloud (GCP)",
+      "tier":"Enterprise",
+      "tags":[
+         "Cloud Provider"
+      ],
+      "auto_onboard_support":true,
+      "short_description":"Get visibility into 100+ cloud assets across projects.",
+      "description":"Get visibility into 100+ cloud assets across projects.",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/gcp.svg"
+   },
+   {
+      "id":5,
+      "name":"GitHubCloud",
+      "label":"GitHub Cloud",
+      "tier":"Enterprise",
+      "tags":["DevOps" ,"CI/CD", "Artifacts","Code Security"],
+      "auto_onboard_support":true,
+      "short_description":"Gain visibility into Repositories, Deployments, PRs and more.",
+      "description":"Gain visibility into Repositories, Deployments, PRs and more.",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/github.svg"
+   },
+   {
+      "id":6,
+      "name":"GitLabCloud",
+      "label":"Gitlab Cloud",
+      "tier":"Enterprise",
+      "tags":["DevOps" ,"CI/CD", "Artifacts","Code Security"],
+      "auto_onboard_support":true,
+      "short_description":"Gain visibility into Projects, MRs, Issues, repositories and 50+ more",
+      "description":"Gain visibility into Projects, MRs, Issues, repositories and 50+ more",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/gitlab.svg"
+   },
+   {
+      "id":7,
+      "name":"Gitguardian",
+      "label":"Gitguardian",
+      "tier":"Enterprise",
+      "tags":["Code Security", "Secrets"],
+      "auto_onboard_support":false,
+      "short_description":"With Gitguardian, you can gain visibility to incidents and repos with secret leaks",
+      "description":"With Gitguardian, you can gain visibility to incidents and repos with secret leaks",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/gitguardian.png"
+   },
+   {
+      "id":8,
+      "name":"JIRACloud",
+      "label":"JIRA Cloud",
+      "tier":"Enterprise",
+      "tags":[
+         "Collaboration", "Process"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Connect to JIRA and gain visibility to tickets, projects, and 10+ mor",
+      "description":"Connect to JIRA and gain visibility to tickets, projects, and 10+ mor",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/jira.svg"
+   },
+   {
+      "id":9,
+      "name":"ServiceNow",
+      "label":"ServiceNow",
+      "tier":"Enterprise",
+      "tags":[
+         "Collaboration", "Process"
+      ],
+      "auto_onboard_support":true,
+      "short_description":"With ServiceNow, connect CMDBs, Incidents, Tickets, and changes",
+      "description":"With ServiceNow, connect CMDBs, Incidents, Tickets, and changes",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/servicenow.png"
+   },
+   {
+      "id":10,
+      "name":"Cloudflare",
+      "label":"Cloudflare",
+      "tier":"Enterprise",
+      "tags":["Network Security"],
+      "auto_onboard_support":true,
+      "short_description":"Gain visibility in to Domains, DNS, WAFs, Firewall Rules, Workers and more.",
+      "description":"Gain visibility in to Domains, DNS, WAFs, Firewall Rules, Workers and more.",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/cloudflare.svg"
+   },
+   {
+      "id":12,
+      "name":"DatadogInfraMonitoring",
+      "label":"Datadog Infrastructure Monitoring",
+      "tier":"Enterprise",
+      "tags":[
+         "Observability", "Monitoring"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover Hosts, VMs, Networks, Tanzu Kubernetes Grid and More",
+      "description":"Discover Hosts, VMs, Networks, Tanzu Kubernetes Grid and More",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/datadog.svg"
+   },
+   {
+      "id":13,
+      "name":"PrismaCloud",
+      "label":"Palo Alto (Prisma) Cloud Security",
+      "tier":"Enterprise",
+      "tags":[
+         "Cloud Security", "CSPM"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Track Cloud security issues,",
+      "description":"Track Cloud security issues,",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/pan.svg"
+   },
+   {
+      "id":14,
+      "name":"AnsibleTower",
+      "label":"Ansible Tower",
+      "tier":"Enterprise",
+      "tags":[
+         "Configuration Magement"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover Inventory, Playbooks, Jobs and more",
+      "description":"Discover Inventory, Playbooks, Jobs and more",
+      "logo":""
+   },
+   {
+      "id":15,
+      "name":"ChainguardDev",
+      "label":"chainguard.dev",
+      "tier":"Enterprise",
+      "tags":[
+         "Containers", "Container Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Inventory Registries, Vulnerabilities, and reports",
+      "description":"Inventory Registries, Vulnerabilities, and reports",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/chainguard.svg"
+   },
+   {
+      "id":16,
+      "name":"Snyk",
+      "label":"Snyk",
+      "tier":"Enterprise",
+      "tags":[
+         "Code Security", "Application Security"
+      ],
+      "auto_onboard_support":true,
+      "short_description":"Gain visibility into Synk's SAST & SCA capabilities",
+      "description":"Gain visibility into Synk's SAST & SCA capabilities",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/snyk.svg"
+   },
+   {
+      "id":17,
+      "name":"Okta",
+      "label":"Okta",
+      "tier":"Enterprise",
+      "tags":[
+         "Identity Provider"
+      ],
+      "auto_onboard_support":true,
+      "short_description":"Discover Okta Users & Identities",
+      "description":"Discover Okta Users & Identities",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/okta.svg"
+   },
+   {
+      "id":18,
+      "name":"SonatypeNexus",
+      "label":"Sonatype Nexus Repository",
+      "tier":"Enterprise",
+      "tags":[
+         "Artifacts"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover binaries and build artifacts across your software supply chain",
+      "description":"Discover binaries and build artifacts across your software supply chain",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/sonatype-nexus.svg"
+   },
+   {
+      "id":19,
+      "name":"CustomWebhook",
+      "label":"Custom Webhook",
+      "tier":"Enterprise",
+      "tags":[
+         "General"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Trigger events, flows, based on compliance policies & events.",
+      "description":"Trigger events, flows, based on compliance policies & events.",
+      "logo":""
+   },
+   {
+      "id":20,
+      "name":"SonarQube",
+      "label":"SonarQube",
+      "tier":"Enterprise",
+      "tags":[
+         "Code Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Get scanner results, test coverage results, issues, ananlysis of PRs/branches and more",
+      "description":"Get scanner results, test coverage results, issues, ananlysis of PRs/branches and more",
+      "logo":""
+   },
+   {
+      "id":21,
+      "name":"Checkmarx",
+      "label":"Checkmarx",
+      "tier":"Enterprise",
+      "tags":[
+         "DAST", "Application Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Track DAST Scan Results, Projects, Risks and more",
+      "description":"Track DAST Scan Results, Projects, Risks and more",
+      "logo":""
+   },
+   {
+      "id":22,
+      "name":"AzureDevOps",
+      "label":"Azure DevOps Cloud",
+      "tier":"Enterprise",
+      "tags":[
+         "Artifacts", "DevOps", "CI/CD", "Work Tracker"
+      ],
+      "auto_onboard_support":true,
+      "short_description":"Discover Projects, Repositories, Issues, Deployment Artifacts, Merge Requests and more",
+      "description":"Discover Projects, Repositories, Issues, Deployment Artifacts, Merge Requests and more",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/azure-devops.svg"
+   },
+   {
+      "id":23,
+      "name":"BlackduckSCA",
+      "label":"Blackduck SCA",
+      "tier":"Enterprise",
+      "tags":[
+         "License Compliance"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Track security, quality, and license compliance risks from projects.",
+      "description":"Track security, quality, and license compliance risks from projects.",
+      "logo":""
+   },
+   {
+      "id":24,
+      "name":"CrowdStrikeFalcon",
+      "label":"CrowdStrike Falcon",
+      "tier":"Enterprise",
+      "tags":[
+         "EDR", "XDR", "Endpoint Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Tracks Hosts, devices, and associated vulnerabilities",
+      "description":"Tracks Hosts, devices, and associated vulnerabilities",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/crowdstrike-falcon.svg"
+   },
+   {
+      "id":25,
+      "name":"DefenderEndpoints",
+      "label":"Microsoft Defender for Endpoints",
+      "tier":"Enterprise",
+      "tags":[
+         "Endpoint Security", "XDR","EDR"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Inventory devices, alerts, scores, alerts, and more",
+      "description":"Inventory devices, alerts, scores, alerts, and more",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/microsoft-defender.svg"
+   },
+   {
+      "id":26,
+      "name":"MicrosoftIntune",
+      "label":"Microsoft Intune (MDM)",
+      "tier":"Enterprise",
+      "tags":[
+         "Device Management", "MDM"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Track devices, policies, protection status and more.",
+      "description":"Track devices, policies, protection status and more.",
+      "logo":""
+   },
+   {
+      "id":27,
+      "name":"InvictiEnterprise",
+      "label":"invicti Enterprise",
+      "tier":"Enterprise",
+      "tags":[
+         "API Security", "DAST", "Web Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Invicti Cloud API integration discovers agents, accounts, issues, scans and vulnerabilities.",
+      "description":"Invicti Cloud API integration discovers agents, accounts, issues, scans and vulnerabilities.",
+      "logo":""
+   },
+   {
+      "id":28,
+      "name":"VMWarePrivateCloud",
+      "label":"VMWare Private Cloud (vSphere)",
+      "tier":"Enterprise",
+      "tags":[
+         "On Prem", "Private Cloud"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover Hosts, VMs, Networks, Tanzu Kubernetes Grid and More",
+      "description":"Discover Hosts, VMs, Networks, Tanzu Kubernetes Grid and More",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/vmware.svg"
+   },
+   {
+      "id":29,
+      "name":"Rubrik",
+      "label":"Rubrik",
+      "tier":"Enterprise",
+      "tags":[
+         "Data Security", "DR","Data Governance", "DSPM"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover protects Hosts, Clusters, and Databases",
+      "description":"Discover protects Hosts, Clusters, and Databases",
+      "logo":""
+   },
+   {
+      "id":31,
+      "name":"CommVault",
+      "label":"CommVault",
+      "tier":"Enterprise",
+      "tags":[
+         "Data Security","Backup","Data Governance"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Track Protected/goverances Databases, File Shares, and more.",
+      "description":"Track Protected/goverances Databases, File Shares, and more.",
+      "logo":""
+   },
+   {
+      "id":32,
+      "name":"BitBucketCloud",
+      "label":"BitBucket Cloud",
+      "tier":"Enterprise",
+      "tags":[
+         "DevOps","CI/CD","Artifacts"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover Code Repos, Pipelines, Runners, Pull requests and  more",
+      "description":"Discover Code Repos, Pipelines, Runners, Pull requests and  more",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/bitbucket.svg"
+   },
+   {
+      "id":33,
+      "name":"Veracode",
+      "label":"Veracode",
+      "tier":"Enterprise",
+      "tags":[
+         ""
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Inventory goverend repos, scans, findings and more.",
+      "description":"Inventory goverend repos, scans, findings and more.",
+      "logo":""
+   },
+   {
+      "id":34,
+      "name":"SplunkES",
+      "label":"Splunk Enterprise Security",
+      "tier":"Enterprise",
+      "tags":[
+         "Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"With Splunk Enterprise API, get insights in to workloads, apps, and threats.",
+      "description":"With Splunk Enterprise API, get insights in to workloads, apps, and threats.",
+      "logo":""
+   },
+   {
+      "id":35,
+      "name":"MicrosoftSentinel",
+      "label":"Microsoft Sentinel",
+      "tier":"Enterprise",
+      "tags":[
+         "SIEM"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover Alert, Incidents, Entities, and more",
+      "description":"Discover Alert, Incidents, Entities, and more",
+      "logo":""
+   },
+   {
+      "id":36,
+      "name":"Godaddy",
+      "label":"Godaddy",
+      "tier":"Enterprise",
+      "tags":[
+         "Domains","SSL","Certificates"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover Certificates, domains, status more",
+      "description":"Discover Certificates, domains, status more",
+      "logo":""
+   },
+   {
+      "id":37,
+      "name":"Rapid7InsightIDR",
+      "label":"Rapid7 InsightIDR (SIEM)",
+      "tier":"Enterprise",
+      "tags":[
+         "SIEM"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover assets, alerts, assets, configuration",
+      "description":"Discover assets, alerts, assets, configuration",
+      "logo":""
+   },
+   {
+      "id":38,
+      "name":"DatadogCloudSIEM",
+      "label":"Datadog Cloud SIEM",
+      "tier":"Enterprise",
+      "tags":[
+         "Security", "SIEM"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover security threats in cloud environments.",
+      "description":"Discover security threats in cloud environments.",
+      "logo":"https://raw.githubusercontent.com/kaytu-io/website/main/connectors/icons/datadog.svg"
+   },
+   {
+      "id":39,
+      "name":"GoogleWorkspaces",
+      "label":"Google Workspaces",
+      "tier":"Enterprise",
+      "tags":[
+         "Identity Provider", "SSO"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Inventory and govern Identities, Users, and Groups",
+      "description":"Inventory and govern Identities, Users, and Groups",
+      "logo":""
+   },
+   {
+      "id":40,
+      "name":"Wiz",
+      "label":"Wiz.io",
+      "tier":"Enterprise",
+      "tags":[
+         "Cloud Security","CSPM"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Cloud Events, Alerts, and others",
+      "description":"Cloud Events, Alerts, and others",
+      "logo":""
+   },
+   {
+      "id":41,
+      "name":"Snowflake",
+      "label":"Snowflake",
+      "tier":"Enterprise",
+      "tags":[
+         "Data Cloud"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover Databases, Tables, and more",
+      "description":"Discover Databases, Tables, and more",
+      "logo":""
+   },
+   {
+      "id":42,
+      "name":"IntruderIO",
+      "label":"intruder.io",
+      "tier":"Enterprise",
+      "tags":[
+         "DAST", "API Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover Vulnerabilities for network",
+      "description":"Discover Vulnerabilities for network",
+      "logo":""
+   },
+   {
+      "id":43,
+      "name":"CobaltIO",
+      "label":"Cobalt.io",
+      "tier":"Enterprise",
+      "tags":[
+         "DAST"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"See Assets, Findings, Scans, and Events",
+      "description":"See Assets, Findings, Scans, and Events",
+      "logo":""
+   },
+   {
+      "id":44,
+      "name":"AppDynamicsSaaS",
+      "label":"Cisco AppDynamics (SaaS)",
+      "tier":"Enterprise",
+      "tags":[
+         "Observability", "Monitoring"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Inventory, Apps, nodes, Tiers, Health Rules and more",
+      "description":"Inventory, Apps, nodes, Tiers, Health Rules and more",
+      "logo":""
+   },
+   {
+      "id":45,
+      "name":"CiscoDuo",
+      "label":"Cisco Duo",
+      "tier":"Enterprise",
+      "tags":[
+         "MFA", "Identity Provider", "Identity Provider", "Identity Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Track MFA, Identities, Policies and more",
+      "description":"Track MFA, Identities, Policies and more",
+      "logo":""
+   },
+   {
+      "id":46,
+      "name":"CiscoMeraki",
+      "label":"Cisco Meraki",
+      "tier":"Enterprise",
+      "tags":[
+         "Network", "Wireless"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Inventory Networks, Gateways, Radios, and more",
+      "description":"Inventory Networks, Gateways, Radios, and more",
+      "logo":""
+   },
+   {
+      "id":47,
+      "name":"Jamf",
+      "label":"Jamf",
+      "tier":"Enterprise",
+      "tags":[
+         "Device Management", "MDM"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"See Devices, Configurations, Policies, and more",
+      "description":"See Devices, Configurations, Policies, and more",
+      "logo":""
+   },
+   {
+      "id":48,
+      "name":"CyberArkPAM",
+      "label":"CyberArk Privileged Access Manager",
+      "tier":"Enterprise",
+      "tags":[
+         "Access Management"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Inventory accounts, systems, requests, and sessions.",
+      "description":"Inventory accounts, systems, requests, and sessions.",
+      "logo":""
+   },
+   {
+      "id":49,
+      "name":"SonarQube",
+      "label":"SonarQube",
+      "tier":"Enterprise",
+      "tags":[
+         "Code Security"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Discover applications, Issuess, code repos",
+      "description":"Discover applications, Issuess, code repos",
+      "logo":""
+   },
+   {
+      "id":50,
+      "name":"CarbonBlackXDR",
+      "label":"Carbon Black Cloud EDR",
+      "tier":"Enterprise",
+      "tags":[
+         "Endpoint Security", "EDR","XDR"
+      ],
+      "auto_onboard_support":false,
+      "short_description":"Track Threat Reports, Fees, and Alerts",
+      "description":"Track Threat Reports, Fees, and Alerts",
+      "logo":""
+   }
+]
